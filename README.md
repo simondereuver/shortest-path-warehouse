@@ -1,4 +1,4 @@
-#Finding the shortest path in a warehouse
+# Finding the shortest path in a warehouse
 
 This project focuses on optimizing forklift routes within a warehouse for efficient item collection. Having experience working in a warehouse, I observed that one of the tasks involves using a forklift to gather items for shipment. The forklift's digital display shows a list of items needed for a specific order, and these items are organized based on their location within the warehouse, the two options on sorting the list is from small to large indexes or the other way around. The items are stored on shelves, and their positions follow a format such as 124-001 to 124-100. In this format, '124' represents the shelf number, and '001' to '100' represent specific spots on the shelf.
 
