@@ -1,0 +1,13 @@
+# Ignore compiled object files and executables
+*.o
+*.out
+*.exe
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Ignore configuration file for compiler
+.vscode/
+*.user
