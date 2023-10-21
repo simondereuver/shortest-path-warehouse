@@ -20,5 +20,8 @@ Some unit tests will be implemented, will update once that has been implemented.
 #### Linter
 TBD.
 
+## Compiling instructions
+Make sure to have a working enviroment to run C programs in your computer. After cloning the project, navigate to the Graph directory of the project through your choice of CLI (command-line interface). Enter this line of code ```C:\work\wh-path\Graph>gcc -fdiagnostics-color=always -g -Iinc src/main.c src/graph.c -o bin/main.exe``` to compile the project. Follow that up with entering ```main.exe``` in your CLI to run the program.
+
 ## Kanban board
 Click [here](https://github.com/users/simondereuver/projects/4) to view the Kanban board of the project.
