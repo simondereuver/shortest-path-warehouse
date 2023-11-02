@@ -6,6 +6,7 @@ Currently, warehouse employees manually select the paths to collect items, relyi
 
 My objective is to replace this manual path selection with an automated system that optimizes item sorting based on the shortest paths. This will not only enhance efficiency but also reduce the margin for human error, ultimately saving time, preserving forklifts, and minimizing energy consumption.
 
+![Warehouselayout](images/Warehouse1.0.jpg)
 ## Program specifications and languages
 
 #### The graph and shortest path algorithm
