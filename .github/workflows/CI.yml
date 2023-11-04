@@ -1,0 +1,23 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up C build environment
+      uses: actions/setup-cpp@v1
+
+    - name: Build
+      run: make
+
+    - name: Run cppcheck lint
+      run: make lint
