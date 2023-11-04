@@ -16,21 +16,23 @@ This will be implemented in C.
 I have an idea of making a visualisation of the warehouse and forklift driving the shortest path. I am considering doing this in python for a learning experience but I have not decided yet.
 
 #### Testing
-Some unit tests will be implemented, will update once that has been implemented.
+Unit tests will be implemented, will update once that has been implemented.
 
 #### Linter
-TBD.
+[cppcheck](https://cppcheck.sourceforge.io) is the linter used for this project.
 
 ## Compiling and running instructions
 *IMPORTANT*
 This is done with using the GNU compiler for C.
+If you have make and cppcheck installed on your system you can simply, after cloning the project, navigate to the Graph directory through your choice of CLI (command-line interface) and enter ```make``` followed by ```main.exe``` for Windows or ```./main``` for Linux.
+
 
 #### Windows:
-After cloning the project, navigate to the Graph directory of the project through your choice of CLI (command-line interface). Enter this line of code ```gcc -fdiagnostics-color=always -g -Iinc src/*.c -o bin/main.exe
+After cloning the project, navigate to the Graph directory of the project through your CLI. Enter this line of code ```gcc -fdiagnostics-color=always -g -Iinc src/*.c -o bin/main.exe
 ``` to compile the project. Follow that up with entering ```main.exe``` in your CLI to run the program.
 
 #### Linux:
-After cloning the project, navigate to the Graph directory of the project through your choice of CLI (command-line interface). Enter this line of code ```gcc -fdiagnostics-color=always -g -Iinc src/*.c -o bin/main``` to compile the project. Follow that up with entering ```./main``` in your CLI to run the program.
+After cloning the project, navigate to the Graph directory of the project through your CLI. Enter this line of code ```gcc -fdiagnostics-color=always -g -Iinc src/*.c -o bin/main``` to compile the project. Follow that up with entering ```./main``` in your CLI to run the program.
 
 ## Kanban board
 Click [here](https://github.com/users/simondereuver/projects/4) to view the Kanban board of the project.
